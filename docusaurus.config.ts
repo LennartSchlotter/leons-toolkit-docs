@@ -16,7 +16,7 @@ const config: Config = {
 
   // TODO
   url: 'https://lennartschlotter.github.io', //FIXME
-  baseUrl: '/leons-modeling-toolkit/',
+  baseUrl: '/leons-toolkit-docs/', //Pot FIXME, has to match github repo name
   organizationName: 'lennartschlotter', //FIXME
   projectName: 'leons-modeling-toolkit',
 
