@@ -291,7 +291,6 @@ export function VideoEmbed({ url, title = "Video", start }: VideoEmbedProps) {
   );
 }
 
-//TODO Icons Fix
 export function Callout({ type = "info", title, children }: CalloutProps) {
   const icons = { tip: "💡", info: "ℹ️", warning: "⚠️", danger: "🚫" };
   return (
