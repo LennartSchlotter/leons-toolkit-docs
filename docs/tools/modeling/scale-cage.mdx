@@ -1,0 +1,68 @@
+---
+sidebar_label: Scale Cage
+---
+
+import ToolPage, {
+  GifBlock,
+  ImageBlock,
+  ParamsTable,
+  ShortcutTable,
+  BeforeAfter,
+  Callout,
+} from '@site/src/components/ToolPage';
+
+<ToolPage
+  title="Scale Cage"
+  version="2.0"
+  status="todo"
+  description="Interactive bounding box handles directly in the 3D viewport. Scale along a single axis, all axes, or snap precisely to grid without touching a number field."
+>
+
+## Overview
+
+TODO describe what problem this solves and when to use it
+
+<GifBlock src="TODO" alt="Scale Cage in action" caption="TODO" />
+
+## Workflow
+
+TODO step by step.
+
+<Callout type="info" title="Pro tip">
+  TODO add a useful tip
+</Callout>
+
+## Parameters
+
+<ParamsTable params={[
+  { setting: 'Grid Snap', type: 'Toggle', default: 'Off', description: 'TODO' },
+  { setting: 'Grid Size', type: 'Float', default: '1.0', description: 'TODO' },
+  { setting: 'Snap Mode', type: 'Enum', default: 'Absolute', description: 'TODO' },
+]} />
+
+## Shortcuts
+
+<ShortcutTable shortcuts={[
+  { key: 'G', action: 'TODO' },
+  { key: 'S', action: 'TODO' },
+  { key: 'Ctrl', action: 'TODO hold for grid snap' },
+]} />
+
+## Before / After
+
+<BeforeAfter
+  before="TODO"
+  after="TODO"
+  beforeLabel="Without Scale Cage"
+  afterLabel="With Scale Cage"
+/>
+
+## Examples
+
+<ImageBlock src="TODO" alt="Example result" caption="TODO" />
+
+## Tips
+
+TODO
+
+</ToolPage>
