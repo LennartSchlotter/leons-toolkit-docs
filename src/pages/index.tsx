@@ -5,31 +5,30 @@ import Layout from "@theme/Layout";
 import styles from "./index.module.css";
 
 // Data
-// TODO Example Selection, will get proper descriptions and potentially different Tools
 const FEATURES = [
   {
-    title: "Scale Cage",
-    description: "Placeholder",
+    title: "Interactive Modeling",
+    description: "Create and modify geometry directly in the viewport with specialized tools.",
   },
   {
-    title: "Clip Tool",
-    description: "Placeholder",
+    title: "Shape Creation",
+    description: "Quickly generate planes, cubes, stairs, arches and other common structures.",
   },
   {
-    title: "Arch Tool",
-    description: "Placeholder",
+    title: "Mesh Editing",
+    description: "Speed up repetitive modeling operations with smarter editing workflows.",
   },
   {
-    title: "Draw Shape",
-    description: "Placeholder",
+    title: "UV Workflows",
+    description: "Project, align and organize UVs faster.",
   },
   {
-    title: "Hotspot Editor",
-    description: "Placeholder",
+    title: "Material Systems",
+    description: "Build layered materials and triplanar setups.",
   },
   {
-    title: "Circle Scatter",
-    description: "Placeholder",
+    title: "Vertex & Origin Utilities",
+    description: "Streamline painting and object alignment tasks.",
   },
 ];
 
@@ -103,15 +102,7 @@ function VideoDemo() {
           A full walkthrough of the toolkit's main features.
         </p>
         <div className={styles.videoWrapper}>
-          {/* <iframe
-            src="https://www.youtube.com/embed/TODOid"
-            title="Leon's Modeling Toolkit Demo"
-            allowFullScreen
-          /> */}
-          <div className={styles.videoPlaceholder}>
-            <span>▶</span>
-            <p>TODO YouTube embed here</p>
-          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/cb-VdU9A44E?si=i5i6cFkuf1euQYba" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
         </div>
       </div>
     </section>
