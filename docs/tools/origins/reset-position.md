@@ -1,8 +1,8 @@
 ---
-sidebar_label: World Aligned
+sidebar_label: Lod Groups
 ---
 
-# World Aligned
+# Lod Groups
 
 TODO
 
@@ -22,7 +22,7 @@ Describe the purpose of the tool.
 
 ## Examples
 
-{/* Add screenshots */}
+{/* Add screenshots here */}
 
 ## Tips
 

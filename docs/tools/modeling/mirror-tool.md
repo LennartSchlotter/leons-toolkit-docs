@@ -1,8 +1,8 @@
 ---
-sidebar_label: Hotspot Editor
+sidebar_label: Mirror Tool
 ---
 
-# Hotspot Editor
+# Mirror Tool
 
 TODO
 
@@ -22,7 +22,7 @@ Describe the purpose of the tool.
 
 ## Examples
 
-{/* Add screenshots */}
+{/* Add Screenshots Here */}
 
 ## Tips
 

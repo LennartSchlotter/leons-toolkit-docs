@@ -1,8 +1,8 @@
 ---
-sidebar_label: Mirror System
+sidebar_label: Lod Groups
 ---
 
-# Mirror System
+# Lod Groups
 
 TODO
 
@@ -22,7 +22,7 @@ Describe the purpose of the tool.
 
 ## Examples
 
-{/* Add Screenshots Here */}
+{/* Add screenshots here */}
 
 ## Tips
 
