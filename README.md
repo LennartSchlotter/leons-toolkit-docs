@@ -1,42 +1,14 @@
-# Website
+# Leon's Toolkit Docs
+The WIP build of this documentatio is currently hosted over at
+`https://lennartschlotter.github.io/leons-toolkit-docs/`
+It will, once finished, be moved to a different domain.
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+## Code Execution
+Simply running `npm start` from the root of the project will be sufficient to inspect the current version of the page.
+Note that some features, like the search index, will not work when locally built.
 
-## Installation
+## Examples
+Currently, the `.\docs\tools\modeling\scale-cage.mdx` file contains examples showcasing functionality for more demanding documentation pages.
+There will be a dedicated documentation page, detailing the available custom tools and usage.
 
-```bash
-yarn
-```
-
-## Local Development
-
-```bash
-yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-## Build
-
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
-
-```bash
-USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```bash
-GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-Settings → Pages → Source and set it to "Deploy from a branch", branch gh-pages.
+Eventually, the plan is to highlight modifiable sections, like the announcement bar, as such to make it easier for users to update the content autonomously.
